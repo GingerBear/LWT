@@ -16,3 +16,10 @@ gcc version 4.2.1 (Based on Apple Inc. build 5658)
 * For lwt_exit and lwt_sleep
 	* gcc lwt.c test_exit.c
 
+###Update by Neil 11/01/13
+
+* Add Makefile to compile Producer Consumer test
+* Import a Queue lib to store semaphore waiting list
+* Change prior mechanism
+* Change thrd_wait / check_ready implementation
+* Clean code

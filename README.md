@@ -19,7 +19,7 @@ gcc version 4.2.1 (Based on Apple Inc. build 5658)
 ###Update by Neil 11/01/13
 
 * Merge lwt_run() to lwt_create(), for immediate execute
-* Merge lwt_RUNNING to LWT_READY
+* Merge lwt_RUNNING to lwt_READY state
 * Import a Queue lib to store semaphore waiting list
 * Change prior mechanism
 * Change thrd_wait / check_ready implementation

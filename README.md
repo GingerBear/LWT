@@ -18,8 +18,10 @@ gcc version 4.2.1 (Based on Apple Inc. build 5658)
 
 ###Update by Neil 11/01/13
 
-* Add Makefile to compile Producer Consumer test
+* Merge lwt_run() to lwt_create(), for immediate execute
+* Merge lwt_RUNNING to LWT_READY
 * Import a Queue lib to store semaphore waiting list
 * Change prior mechanism
 * Change thrd_wait / check_ready implementation
+* Add Makefile to compile Producer Consumer test
 * Clean code
